@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School Bookstore Survey</title>
+</head>
+<body>
+
+    <h1>School Bookstore Survey</h1>
+    <p>Please fill out this form to help us improve our bookstore.</p>
+
+    <form>
+
+        <h2>Basic Information</h2>
+
+        <label>Name:</label>
+        <input type="text" name="name" required>
+        <br><br>
+
+        <label>Address:</label>
+        <input type="text" name="address">
+        <br><br>
+
+        <label>City:</label>
+        <input type="text" name="city">
+        <br><br>
+
+        <label>Zip Code:</label>
+        <input type="text" name="zip">
+        <br><br>
+
+        <label>Email ID:</label>
+        <input type="email" name="email">
+        <br><br>
+
+        <h2>Survey Questions</h2>
+
+        <p>1. How often do you purchase books?</p>
+        <input type="radio" name="frequency" value="Weekly">
+        Weekly<br>
+        <input type="radio" name="frequency" value="Monthly">
+        Monthly<br>
+        <input type="radio" name="frequency" value="Occasionally">
+        Occasionally<br><br>
+
+        <p>2. What type of books do you prefer?</p>
+        <input type="checkbox" name="books" value="Fiction">
+        Fiction<br>
+        <input type="checkbox" name="books" value="Educational">
+        Educational<br>
+        <input type="checkbox" name="books" value="Comics">
+        Comics<br>
+        <input type="checkbox" name="books" value="Reference">
+        Reference Books<br><br>
+
+        <p>3. Where do you usually buy books?</p>
+        <select name="purchase">
+            <option>School Bookstore</option>
+            <option>Online Store</option>
+            <option>Local Bookshop</option>
+            <option>Other</option>
+        </select>
+        <br><br>
+
+        <p>4. Are you satisfied with the prices of books?</p>
+        <input type="radio" name="price" value="Yes"> Yes
+        <input type="radio" name="price" value="No"> No
+        <br><br>
+
+        <p>5. What improvements would you like to see
+           in our bookstore?</p>
+        <textarea name="suggestions" rows="4" cols="40"></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit Survey">
+        <input type="reset" value="Clear Form">
+
+    </form>
+
+</body>
+</html>
